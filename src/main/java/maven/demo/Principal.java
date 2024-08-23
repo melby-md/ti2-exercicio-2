@@ -31,5 +31,6 @@ public class Principal {
 		for (Usuario u : usuarios) {
 			System.out.println(u.toString());
 		}
+		dao.close();
 	}
 }
